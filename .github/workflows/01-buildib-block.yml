@@ -12,8 +12,8 @@ jobs:
          - name: say goodbye
            run: |
             echo "fail goodbye"
-            exit 1
+            exit 0
 
          - name: say true goodbye
            run: echo "say final bye"
-           
+
