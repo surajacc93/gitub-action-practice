@@ -14,3 +14,4 @@ jobs:
         steps:
             - name: event type
               run: echo "print the event name ${{github.event_name}}"
+    
