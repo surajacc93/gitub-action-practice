@@ -2,7 +2,7 @@ name: 01-building-block
 on: push
 jobs:
   echo-hell:
-     run-on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps:
        - name: say hello
          run: "echo hello world"
